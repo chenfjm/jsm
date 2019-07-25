@@ -1,5 +1,5 @@
 module.exports = {
-  base: '/jsm/'
+  base: '/jsm/',
   title: '急速卖',
   themeConfig: {
     search: false,
