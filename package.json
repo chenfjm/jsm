@@ -1,5 +1,19 @@
 {
+  "name": "jsm",
+  "version": "1.0.0",
+  "description": "--- home: true heroImage: logo.png heroText: 急速卖 tagline: 将你身边的东西卖给需要的好友 actionText: 立即使用 → actionLink: /download/",
+  "main": "index.js",
   "scripts": {
     "build": "vuepress build ."
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenfjm/jsm.git"
+  },
+  "author": "cc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chenfjm/jsm/issues"
+  },
+  "homepage": "https://github.com/chenfjm/jsm#readme"
 }
