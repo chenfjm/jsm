@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/chenfjm/jsm/issues"
   },
-  "homepage": "https://github.com/chenfjm/jsm#readme"
+  "homepage": "https://github.com/chenfjm/jsm#readme",
+  "devDependencies": {
+    "vuepress": "^1.0.2"
+  }
 }
