@@ -1,5 +1,6 @@
 .DS_Store
 node_modules/
+.vuepress/dist/
 npm-debug.log
 dist/*.map
 yarn-error.log
