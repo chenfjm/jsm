@@ -4,6 +4,7 @@
   "description": "--- home: true heroImage: logo.png heroText: 急速卖 tagline: 将你身边的东西卖给需要的好友 actionText: 立即使用 → actionLink: /download/",
   "main": "index.js",
   "scripts": {
+    "dev": "vuepress dev .",
     "build": "vuepress build ."
   },
   "repository": {
