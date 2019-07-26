@@ -19,6 +19,7 @@ install:
 script:
   - npm run build
 after_script:
+ - rm -rf dist/*
  - mv .vuepress/dist/* dist
  - cd dist
  - git add --all .
