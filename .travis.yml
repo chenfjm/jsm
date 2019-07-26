@@ -28,13 +28,14 @@ cache:
 before_install:
   - git config --global user.name "chenfjm"
   - git config --global user.email "chenfjm@gmail.com"
-  - git clone --branch gh-pages https://github.com/chenfjm/jsm.git .vuepress/dist
+  - git clone --branch gh-pages https://github.com/chenfjm/jsm.git dist
 install:
   - npm install
 script:
   - npm run build
 after_script:
- - cd .vuepress/dist
+ - mv .vuepress/dist/* dist
+ - cd dist
  - git add --all .
  - git commit --message "Automatically update from travis-ci"
  - git push --quiet "https://${GH_TOKEN}@${GH_REF}" gh-pages:gh-pages
